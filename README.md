@@ -21,9 +21,9 @@ En resumen, los sistemas lineales son predecibles y más fáciles de analizar ma
 Al crear un modelo matemático usando leyes físicas, siempre habrá un margen de error en los resultados. Para asegurarse de que el modelo sea preciso, es necesario compararlo con el sistema real. Si la diferencia es demasiado grande, se deben hacer ajustes hasta que el resultado sea suficientemente cercano. 
 ## 3.2. Influencia de parámetros
 Tomando como referencia un resorte, su comportamiento puede ser sinusoidal, presentar un decaimiento exponencial o una combinación de ambos.
-*Comportamiento sinusoidal* es cuando su respuesta varía en el tiempo siguiendo la forma de una onda seno o coseno. Esto significa que la salida oscila periódicamente, subiendo y bajando en un patrón repetitivo, en el caso del resorte seria como si este se estirara y se retraese sin desagaste, es decir, sin disminuir la distacia que se estira.
-* Decaimiento exponencial* es un comportamiento en el que una cantidad disminuye progresivamente a lo largo del tiempo siguiendo una curva exponencial decreciente, en el caso del resorte a medida del tiempo tiende a dejar de estirarse a la misma deistancia, tendiendo a irse a reposo.
-  *Combinacion de ambos* cuando la respuesta varia en el tiempo, pero su amplitud disminuye gradualmente hasta desaparecer, en el caso del resorte que tenga un amortiguamiento, por ejemplo encontrarse sumergido en agua.
+* *Comportamiento sinusoidal* es cuando su respuesta varía en el tiempo siguiendo la forma de una onda seno o coseno. Esto significa que la salida oscila periódicamente, subiendo y bajando en un patrón repetitivo, en el caso del resorte seria como si este se estirara y se retraese sin desagaste, es decir, sin disminuir la distacia que se estira.
+* *Decaimiento exponencial* es un comportamiento en el que una cantidad disminuye progresivamente a lo largo del tiempo siguiendo una curva exponencial decreciente, en el caso del resorte a medida del tiempo tiende a dejar de estirarse a la misma deistancia, tendiendo a irse a reposo.
+* *Combinacion de ambos* cuando la respuesta varia en el tiempo, pero su amplitud disminuye gradualmente hasta desaparecer, en el caso del resorte que tenga un amortiguamiento, por ejemplo encontrarse sumergido en agua.
 ## 4. Repaso
 Se recuerda lo fundamental  de reconocer una ecuación diferencial, ya que permite modelar dinámicamente distintos sistemas. Además, algunos conceptos de cálculo vectorial son clave para comprender ciertos procesos relacionados.
 ## 4.1 Ecuaciones diferenciales
