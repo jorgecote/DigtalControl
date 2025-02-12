@@ -8,10 +8,10 @@ En clase, los estudiantes expresan con sus propias palabras las definiciones de 
 > 🔑 Una *Planta* se define como la infraestructura fija que posibilita la ejecución de un proceso.
 ## 2. Modelos dinamicos
 Es fundamental desarrollar un modelo matemático que represente la relación entre las variables de interés y el tiempo 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=f(t)
+'$$'<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=f(t)
 "><img src="http://www.alciro.org/cgi/tex.cgi?f(t)
 " title="f(t)
-" border="0" /></a>
+" border="0" /></a>'$$'
 Las variables experimentan variaciones a lo largo del tiempo, y para comprender su evolución y comportamiento, es crucial cuantificar la magnitud de estos cambios y analizar cómo influyen en el sistema.
 ## 3. Sistemas lineales y no lineales
  Un sistema lineal es aquel que cumple con el principio de superposición, lo que significa que la respuesta a múltiples entradas simultáneas es la suma de las respuestas individuales a cada entrada por separado. Además, presenta proporcionalidad, es decir, si la entrada se escala, la salida también lo hace en la misma proporción.
