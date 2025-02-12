@@ -2,7 +2,7 @@
 En clase, los estudiantes expresan con sus propias palabras las definiciones de sistema, sistema dinámico, planta y proceso. Luego, se explica su relación con la materia y se introducen los modelos dinámicos y ecuaciones diferenciales, repasando conceptos clave. Además, se analizan los sistemas lineales y no lineales, considerando la influencia de sus parámetros. Finalmente, se estudia la transformada de Laplace, desde sus fundamentos hasta su inversa, concluyendo con un ejercicio práctico.
 ## 1. Conceptos
 > 🔑 Un *sistema* se define como una combinacion de componentes que actuan en conjunto parea alcanzar un objetivo especifico.
-#
+##
 > 🔑 Se considera un *Sitema dinamico* a aquel cuya salida en el presente dependa de una entrada en el pasado.
 #
 > 🔑 Se considera un *Sitema estatico* a aquel es aquel cuya salida en un momento dado depende únicamente de la entrada en ese mismo instante.
