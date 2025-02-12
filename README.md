@@ -4,11 +4,11 @@ En clase, los estudiantes expresan con sus propias palabras las definiciones de 
 > 🔑 Un *sistema* se define como una combinacion de componentes que actuan en conjunto parea alcanzar un objetivo especifico.
 ##
 > 🔑 Se considera un *Sitema dinamico* a aquel cuya salida en el presente dependa de una entrada en el pasado.
-#
+##
 > 🔑 Se considera un *Sitema estatico* a aquel es aquel cuya salida en un momento dado depende únicamente de la entrada en ese mismo instante.
-#
+##
 > 🔑 Un *Proceso* se entiende como una serie de etapas secuenciales que facilitan el desarrollo o la producción de un producto o la consecución de un objetivo.
-#
+##
 > 🔑 Una *Planta* se define como la infraestructura fija que posibilita la ejecución de un proceso.>
 ## 2. Modelos dinamicos
 Es fundamental desarrollar un modelo matemático que represente la relación entre las variables de interés y el tiempo f(t)
