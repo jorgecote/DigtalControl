@@ -34,8 +34,36 @@ La transformada de Laplace es una técnica matemática que permite cambiar una e
 ## 5. Transformada Inversa de LaPlace 
 La transformada inversa de Laplace permite regresar una ecuación del dominio de la frecuencia al dominio del tiempo. Su objetivo es recuperar la función original después de haber sido transformada, facilitando la interpretación del comportamiento del sistema en el tiempo.
 ## 💡6. Ejemplo
-Se realiza el siguiente ejemplo en clase:, 
+Se realiza el siguiente ejemplo en clase:
+
 $$G(s)=\frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
+
+Se repasa el temade fracciones parciales, siendo en este caso separar el denominador y asiignar variables paar resolver el sistema, tal que: 
+
+$$G(s)=\frac{A}{(s+1)}+\frac{B}{(s-2)}+\frac{C}{(s-3)}=\frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
+
+Se resuelven las fracciones del lado izquierdo quedando de tal manera y leugo igualando numerador con numerador: 
+
+$$A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)=2s^{2}-4$$
+
+Se resuleven parentesis: 
+
+$$A(s^{2}-5s+6)+B(s^{2}-2s-3)+C(s^{2}-s-2)=2s^{2}-4$$
+
+Se plantea el sistema de ecuaciones 3x3 igualando terminos similares en las dos partes de la igualadad, es decir:
+
+ $$A+B+C=2$$
+ 
+ $$-5A-2B-C=0$$
+ 
+ $$6A-3B-2C=-4$$
+ 
+ Despejando el sistema 3x3 por metodo de sustitucion queda que: 
+
+
+
+
+
 
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
