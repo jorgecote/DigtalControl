@@ -58,12 +58,12 @@ Se plantea el sistema de ecuaciones 3x3 igualando terminos similares en las dos 
  
  3. $$6A-3B-2C=-4$$
  
- Despejando el sistema 3x3 por metodo de sustitucion queda que: 
+Despejando el sistema 3x3 por metodo de sustitucion queda que: 
 
- 1. $$A=2-C-B$$
+1. $$A=2-C-B$$
     
- 2.  Reemplazamos 1 en 2
-    
+2.  Reemplazamos 1 en 2
+   
 $-5(2-C-B)-2B-C=0$
 
 $-10+5C+5B-2B-C=0$
@@ -78,38 +78,43 @@ $C=\frac{10-3B}{4}$
 
 $6(2-C-B)-3B-2(\frac{10-3B}{4})=-4$
 
- $12-6C-6B-3B-2(\frac{10-3B}{4})=-4$
+$12-6C-6B-3B-2(\frac{10-3B}{4})=-4$
 
- $12-6(\frac{10-3B}{4})-6B-3B-2(\frac{10-3B}{4})=-4$
+$12-6(\frac{10-3B}{4})-6B-3B-2(\frac{10-3B}{4})=-4$
 
- $12-(\frac{60-18B}{4})-9B-(\frac{20-6B}{4})=-4$
+$12-(\frac{60-18B}{4})-9B-(\frac{20-6B}{4})=-4$
 
- $12-15+(\frac{18B}{4})-9B-5+(\frac{6B}{4})=-4$
+$12-15+(\frac{18B}{4})-9B-5+(\frac{6B}{4})=-4$
  
- $-8-9B+(\frac{18}{4}+\frac{6}{4})B=-4$
+$-8-9B+(\frac{18}{4}+\frac{6}{4})B=-4$
 
- $-8-9B+6B=-4$
+$-8-9B+6B=-4$
 
- $-9B+6B=4$
+$-9B+6B=4$
 
- $$-3B=4$
+$$-3B=4$
 
- $B=\frac{-4}{3}$
+$B=\frac{-4}{3}$
 
 4.Remplazamos valor de B y C en 1
- $A=2-C-B$
 
- $A=2-(\frac{10-3(\frac{-4}{3})}{4})-(\frac{-4}{3})$
+$A=2-C-B$
 
- $A=\frac{-1}{6}$
+$A=2-(\frac{10-3(\frac{-4}{3})}{4})-(\frac{-4}{3})$
 
- 5.Remplazmos valor de B en 2
+$A=\frac{-1}{6}$
 
- $C=\frac{10-3B}{4}$
+5.Remplazmos valor de B en 2
 
- $C=(\frac{10-3(\frac{-4}{3})}{4})$
+$C=\frac{10-3B}{4}$
 
- $C=\frac{7}{2}$
+$C=(\frac{10-3(\frac{-4}{3})}{4})$
+
+$C=\frac{7}{2}$
+
+Por ultimo: 
+
+$$G(s)=\frac{\frac{-1}{(6)}{(s+1)}+\frac{\frac{-4}{(3)}{(s-2)}+\frac{\frac{7}{(2)}{(s-3)}$$
 
 
 
