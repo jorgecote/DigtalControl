@@ -35,7 +35,7 @@ La transformada de Laplace es una técnica matemática que permite cambiar una e
 La transformada inversa de Laplace permite regresar una ecuación del dominio de la frecuencia al dominio del tiempo. Su objetivo es recuperar la función original después de haber sido transformada, facilitando la interpretación del comportamiento del sistema en el tiempo.
 ## 💡6. Ejemplo
 Se realiza el siguiente ejemplo en clase: 
-$$ G(s)= \frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
+$$G(s)=\frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
 
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
