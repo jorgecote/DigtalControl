@@ -38,11 +38,11 @@ Se realiza el siguiente ejemplo en clase:
 
 $$G(s)=\frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
 
-Se repasa el temade fracciones parciales, siendo en este caso separar el denominador y asiignar variables paar resolver el sistema, tal que: 
+Se repasa el tema de fracciones parciales para resover la transformada de LaPlace inversa, siendo en este caso separar el denominador y asignar variables para resolver el sistema, tal que: 
 
 $$G(s)=\frac{A}{(s+1)}+\frac{B}{(s-2)}+\frac{C}{(s-3)}=\frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
 
-Se resuelven las fracciones del lado izquierdo quedando de tal manera y leugo igualando numerador con numerador: 
+Se resuelven las fracciones del lado izquierdo quedando de tal manera y luego igualando numerador con numerador: 
 
 $$A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)=2s^{2}-4$$
 
@@ -52,13 +52,50 @@ $$A(s^{2}-5s+6)+B(s^{2}-2s-3)+C(s^{2}-s-2)=2s^{2}-4$$
 
 Se plantea el sistema de ecuaciones 3x3 igualando terminos similares en las dos partes de la igualadad, es decir:
 
- $$A+B+C=2$$
+ 1. $$A+B+C=2$$
  
- $$-5A-2B-C=0$$
+ 2. $$-5A-2B-C=0$$
  
- $$6A-3B-2C=-4$$
+ 3. $$6A-3B-2C=-4$$
  
  Despejando el sistema 3x3 por metodo de sustitucion queda que: 
+
+ 1. $$A=2-C-B$$
+    
+ 2.  Reemplazamos 1 en 2
+    
+$-5(2-C-B)-2B-C=0$
+
+$-10+5C+5B-2B-C=0$
+
+$-10+4C+3B=0$
+
+$4C+3B=10$
+
+$C=\frac{10-3B}{4}$
+
+3. Remplazmos 1 y 2 en 3
+
+   $6(2-C-B)-3B-2(\frac{10-3B}{4})=-4$
+
+   $12-6C-6B-3B-2(\frac{10-3B}{4})=-4$
+
+ $12-6(\frac{10-3B}{4})-6B-3B-2(\frac{10-3B}{4})=-4$
+
+ $12-(\frac{60-18B}{4})-9B-(\frac{20-6B}{4})=-4$
+
+ $12-15+(\frac{18B}{4})-9B-5+(\frac{6B}{4})=-4$
+
+
+ $-8-9B+(\frac{18}{4}+\frac{6}{4})B=-4$
+
+ $-8-9B+6B=-4$
+
+ $-9B+6B=4$
+
+ $$-3B=4$
+
+ $B=\frac{-4}{3}$
 
 
 
