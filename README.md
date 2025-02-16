@@ -1,14 +1,14 @@
 # DEFINICION SISTEMAS DINAMICOS, REPASO TRANSFORMADA DE LAPLACE
 En clase, los estudiantes expresan con sus propias palabras las definiciones de sistema, sistema dinámico, planta y proceso. Luego, se explica su relación con la materia y se introducen los modelos dinámicos y ecuaciones diferenciales, repasando conceptos clave. Además, se analizan los sistemas lineales y no lineales, considerando la influencia de sus parámetros. Finalmente, se estudia la transformada de Laplace, desde sus fundamentos hasta su inversa, concluyendo con un ejercicio práctico.
-## 1. Conceptos
+# 1. Conceptos
 > 🔑 Un *sistema* se define como una combinacion de componentes que actuan en conjunto parea alcanzar un objetivo especifico.
-##
+
 > 🔑 Se considera un *Sitema dinamico* a aquel cuya salida en el presente dependa de una entrada en el pasado.
-##
+
 > 🔑 Se considera un *Sitema estatico* a aquel es aquel cuya salida en un momento dado depende únicamente de la entrada en ese mismo instante.
-##
+
 > 🔑 Un *Proceso* se entiende como una serie de etapas secuenciales que facilitan el desarrollo o la producción de un producto o la consecución de un objetivo.
-##
+
 > 🔑 Una *Planta* se define como la infraestructura fija que posibilita la ejecución de un proceso.>
 ## 2. Modelos dinamicos
 Es fundamental desarrollar un modelo matemático que represente la relación entre las variables de interés y el tiempo f(t)
@@ -26,10 +26,10 @@ Tomando como referencia un resorte, su comportamiento puede ser sinusoidal, pres
 * *Combinacion de ambos* es cuando la respuesta varia en el tiempo, pero su amplitud disminuye gradualmente hasta desaparecer, en el caso del resorte que tenga un amortiguamiento, por ejemplo encontrarse sumergido en agua.
 ## 4. Repaso
 Se recuerda lo fundamental  de reconocer una ecuación diferencial, ya que permite modelar dinámicamente distintos sistemas. Además, algunos conceptos de cálculo vectorial son clave para comprender ciertos procesos relacionados.
-## 4.1 Ecuaciones diferenciales
+### 4.1 Ecuaciones diferenciales
 Las ecuaciones diferenciales son expresiones matemáticas que relacionan una función con sus derivadas. Se utilizan para relacionar la evolución de sistemas  en el tiempo, describiendo cómo una variable cambia en función de otra(tiempo). 
 
-## 4.2 Transformada de LaPlace
+### 4.2 Transformada de LaPlace
 La transformada de Laplace es una técnica matemática que permite cambiar una ecuación del tiempo al dominio de la frecuencia, haciendo más fácil su análisis. Convierte ecuaciones con derivadas en ecuaciones más simples de resolver.
 ## 5. Transformada Inversa de LaPlace 
 La transformada inversa de Laplace permite regresar una ecuación del dominio de la frecuencia al dominio del tiempo. Su objetivo es recuperar la función original después de haber sido transformada, facilitando la interpretación del comportamiento del sistema en el tiempo.
