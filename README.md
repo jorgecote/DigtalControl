@@ -62,7 +62,7 @@ Despejando el sistema 3x3 por metodo de sustitucion queda que:
 
 1. $$A=2-C-B$$
     
-2.  Reemplazamos 1 en 2
+2.Reemplazamos 1 en 2
    
 $-5(2-C-B)-2B-C=0$
 
@@ -92,7 +92,7 @@ $-8-9B+6B=-4$
 
 $-9B+6B=4$
 
-$$-3B=4$
+$-3B=4$
 
 $B=\frac{-4}{3}$
 
@@ -114,7 +114,7 @@ $C=\frac{7}{2}$
 
 Por ultimo: 
 
-$$G(s)=\frac{\frac{-1}{(6)}{(s+1)}+\frac{\frac{-4}{(3)}{(s-2)}+\frac{\frac{7}{(2)}{(s-3)}$$
+$$G(s)=\frac{\frac{-1}{6}}{s+1}+ \frac{\frac{-4}{3}}{s-2}+ \frac{\frac{7}{2}}{s-3}$$
 
 
 
