@@ -152,19 +152,32 @@ $A=\frac{17}{(7)}$
 $$W(s)=\frac{\frac{17}{7}}{(s-5)}+\frac{\frac{4}{7}}{(s+2)}$$
 
 📚 2. 
-$$F(s)=\frac{(s-5)}{(s+3)(s-2)}$$
+$$F(s)=\frac{(s-5)}{(s+3)(s-2)}$$ 
+
 $F(s)=\frac{(s-5)}{(s+3)(s-2)}=\frac{A}{(S-5)}+\frac{B}{(S-2)}$
+
 $A(s-2)+B(s+3)=s-5$
+
 $As-2A+Bs+3B=s-5$
+
 $A+B=1$
+
 $-2A+3B=-5$
+
 $A=1-B$
+
 $-2(1-B)+3B=-5$
+
 $-2+2B+3B=-5$
+
 $B=\frac{-3}{(5)}$
+
 $A=1-(\frac{-3}{(5)})$
+
 $A=\frac{8}{(5)}$
+
 $$F(s)=\frac{\frac{8}{(5)}}{(S-5)}+\frac{\frac{-3}{(5)}}{(S-2)}$$
+
 ## 10. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
 
