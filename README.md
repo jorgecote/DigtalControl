@@ -118,8 +118,7 @@ $$G(s)=\frac{\frac{-1}{6}}{s+1}+ \frac{\frac{-4}{3}}{s-2}+ \frac{\frac{7}{2}}{s-
 
 
 #  7.Ejercicios
-## 📚 1. 
-
+📚 1. 
 $$W(s)=\frac{3s+2}{(s-5)(s+2)}$$
 
 $W(s)=\frac{A}{(s-5)}+\frac{B}{(s+2)}=\frac{3s+2}{(s-5)(s+2)}$
