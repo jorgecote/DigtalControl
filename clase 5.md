@@ -33,7 +33,7 @@ $$C=\frac{d}{ds}\left [ \frac{(s+8)^{3}3}{(s+5)(s+8)^{3}} \right ],s=-8$$
 
 Utilizando 
 
-![Derivada de un cociente](images/plantilla/derivada-cociente-formula.webp)
+![Derivada de un cociente](images/plantilla/derivada-cociente-formula.png)
 
 Para el caso de la variable C, recordamos que el metodo de raices reales iguales nos dice que la siguiente variable se hallara sacando la derivada de la ecuación anterior.
 
