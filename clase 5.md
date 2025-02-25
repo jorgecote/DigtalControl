@@ -35,6 +35,33 @@ Utilizando
 
 ![Derivada de un cociente](images/plantilla/derivada.png)
 
+Tenemos que: 
+
+$C=\frac{d}{ds}\left [ \frac{3}{(s+5)} \right ],s=-8$
+
+$\frac{d}{ds}(3)=0$
+
+$\frac{d}{ds}(s+5)=1$
+
+$C=\frac{0(s+5)-3(1)}{(s+5)^{2}},s=-8$
+
+$C=\frac{-3}{(-8+5)^{2}}$
+
+$C=\frac{-3}{9}=\frac{-1}{3}$
+
+Y por ultimo paar la variable D, hacemos lo mismo, la derivada de la ecuacion anterior o la  doble derivada de la primera ecuacion:
+
+$D=\frac{d^{2}}{ds^{2}}\left[ \frac{(s+8)^{3}3}{(s+5)(s+8)^{3}}\right],s=-8$$
+
+$D=\left [ \frac{0(s+5)^{2}+3(2(s+5))}{(s+5)^{4}} \right ],s=-8$
+
+$D=\left [ \frac{3(2(-8+5))}{(-8+5)^{4}} \right ]$
+
+$D=\left [ \frac{18}{81} \right ]=\frac{-2}{9}$
+
+
+
+
 Para el caso de la variable C, recordamos que el metodo de raices reales iguales nos dice que la siguiente variable se hallara sacando la derivada de la ecuación anterior.
 
 ## 2. Definiciones
