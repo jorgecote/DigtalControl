@@ -2,13 +2,38 @@
 De acuerdo a nuestra clase #4 vimos el tema de Raices Reales Diferentes y Raices Reales Iguales, comenzando esta clase con un ejercicio del tema y luego la explicacion y solucion del tema SOLUCION RESUMIDA.
 ## 1. Ejercicio Raices Reales Iguales y Raices Reales Diferentes
 Se inicia la clase con el siguiente ejercicio: 
+
 $$G(s)=\frac{3}{(s+5)(s+8)^{3}}$$
+
 Al analizar el ejercicio nos damos cuenta que es un problema que contiene raices reales diferentes e iguales a al vez, por lo cual comenzamos planteando las fracciones parciales para luego poder aplicar los dos metodos mencionados anteriormente.
+
 Ya que el termino $(s+8)^{3}$ hace parte de raices reales iguales debemos tener en cuenta su formulacion en las fracciones parciales siendo que:  
+
 $$ G(s)=\frac{A}{(s+5)}+\frac{B}{(s+8)^{3}}+\frac{C}{(s+8)^{2}}+\frac{D}{(s+8)}$$
-Utilizamos el metodo de Raices Reales Diferentes paar encontrar el valor de la variable A:
+
+Utilizamos el metodo de Raices Reales Diferentes para encontrar el valor de la variable A:
+
 $A=\left [ \frac{(s+5)3}{(s+5)(s+8)^{3}} \right ]\,s=-5$
 
+$A=\left [ \frac{(-5+5)3}{(-5+5)(-5+8)^{3}} \right ]\$
+
+$A=\left [ \frac{3}{(-5+8)^{3}} \right ]\$
+
+$A= \frac{3}{27}=\frac{1}{9}$
+
+Ahora para la variable B usamos el metodo de Raices Reales Iguales
+
+$$B=\left [ \frac{(s+8)^{3}3}{(s+5)(s+8)^{3}} \right ], s=-8$$
+
+$B=\left [ \frac{(-8+8)^{3}3}{(-8+5)(-8+8)^{3}} \right ]$
+
+$B=\frac{3}{(-8+5)}=\frac{3}{-3}=-1$
+
+$$C=\frac{d}{ds}\left [ \frac{(s+8)^{3}3}{(s+5)(s+8)^{3}} \right ],s=-8$$
+
+Utilizando 
+
+Para el caso de la variable C, recordamos que el metodo de raices reales iguales nos dice que la siguiente variable se hallara sacando la derivada de la ecuación anterior.
 
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
