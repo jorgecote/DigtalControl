@@ -3,7 +3,7 @@ De acuerdo a nuestra clase #4 vimos el tema de Raices Reales Diferentes y Raices
 ## 1. Ejercicio Raices Reales Iguales y Raices Reales Diferentes
 Se inicia la clase con el siguiente ejercicio: 
 
-$$G(s)=\frac{3}{(s+5)(s+8)^{3}}$$
+$$G(s)=$G(s)=\frac{2s-3}{(s+2)(s+10)^{3}}$
 
 Al analizar el ejercicio nos damos cuenta que es un problema que contiene raices reales diferentes e iguales a al vez, por lo cual comenzamos planteando las fracciones parciales para luego poder aplicar los dos metodos mencionados anteriormente.
 
@@ -72,6 +72,8 @@ $$G(s)=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
 Y escribimos igualando las dos ecuaciones:
 
 $$G(s)=\frac{s^{2}+2s+3}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
+
+Multiplicamos uno de los factores de segundo orden 
 
 
 ## 2. Definiciones
