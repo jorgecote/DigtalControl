@@ -59,10 +59,8 @@ $D=\left [ \frac{3(2(-8+5))}{(-8+5)^{4}} \right ]$
 
 $D=\left [ \frac{18}{81} \right ]=\frac{-2}{9}$
 
+Al final tendriamos que:
 
-
-
-Para el caso de la variable C, recordamos que el metodo de raices reales iguales nos dice que la siguiente variable se hallara sacando la derivada de la ecuación anterior.
 
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
