@@ -60,6 +60,18 @@ $D=\left [ \frac{3(2(-8+5))}{(-8+5)^{4}} \right ]$
 $D=\left [ \frac{18}{81} \right ]=\frac{-2}{9}$
 
 Al final tendriamos que:
+## 2. Solucion Resumida 
+Se usa este caso cuando encontramos polinomios de segundo grado en los factores del denominador, coemnzamos con un ejercicio en clase:
+
+$$G(s)=\frac{s^{2}+2s+3}{(s^{2}+2s+2)(s^{2}+2s+5)}$$
+
+Separamos en fracciones parciales de la siguiente forma: 
+
+$$G(s)=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
+
+Y escribimos igualando las dos ecuaciones:
+
+$$G(s)=\frac{s^{2}+2s+3}{(s^{2}+2s+2)(s^{2}+2s+5)}=G(s)=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
 
 
 ## 2. Definiciones
