@@ -85,7 +85,7 @@ Como la raiz de -4 no existe en los numeros reales pasamos a resolver mediante n
 
 $$x=\frac{-2\frac{+}{}\sqrt{4}i}{2}$$
 
-$$x=-1frac{+}{}i$$
+$$x=-1\frac{+}{}i$$
 
 
 
