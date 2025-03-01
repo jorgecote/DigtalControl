@@ -102,11 +102,7 @@ $$x=\frac{-2\frac{+}{}\sqrt{16}i}{2}$$
 
 $$x=-1\frac{+}{}2i$$
 
- 
-
-
-
-Separamos en fracciones parciales de la siguiente forma: 
+Teniendo estos factores separamos en fracciones parciales de la siguiente forma: 
 
 $$G(s)=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
 
@@ -114,10 +110,32 @@ Y escribimos igualando las dos ecuaciones:
 
 $$G(s)=\frac{s^{2}+2s+3}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
 
-Multiplicamos uno de los factores de segundo orden, elegimos el factor de $(s^{2}+2s+2)$ quedando de tal manera:
+Multiplicamos uno de los factores de segundo orden, elegimos el factor de $(s^{2}+2s+2)$ y evaluando s en los resultados de la solucion de la cuadratica quedando de tal manera:
 
-$G(s)=\frac{(s^{2}+2s+2)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(s^{2}+2s+2)As+B}{(s^{2}+2s+2)}+\frac{(s^{2}+2s+2)Cs+D}{s^{2}+2s+5}$
+$\left [ G(s)=\frac{(s^{2}+2s+2)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(s^{2}+2s+2)As+B}{(s^{2}+2s+2)}+\frac{(s^{2}+2s+2)Cs+D}{s^{2}+2s+5} \right ] s=1+j$
 
+Simplificamos terminos reemplazando por el valor de s, quedando de tal manera: 
+
+$G(s)=\frac{(s^{2}+2s+3)}{(s^{2}+2s+5)}={As+B}+(0)$
+
+$G(s)=\frac{((1+j-j^{2})+2(1+j)+3)}{(1+j-j^{2})+2(1+j)+5)}={A(1+j)+B}$
+
+$G(s)=\frac{((1+j)^{2}+2(1+j)+3)}{((1+j)^{2}+2(1+j)+5)}={A(1+j)+B}$
+
+Y resolvemos multiplicaciones
+
+$G(s)=\frac{1+j-j^{2}+2+2j+3}{1+j-j^{2}+2+2j+5}={A+Aj+B}$
+
+$G(s)=\frac{1+j-1+2+2j+3}{1+j-j+2+2j+5}={A+Aj+B}$
+Teniendo en cuenta que $j^{2}=-1$ tendriamos que: 
+
+
+
+
+
+Se resuelven la suma de cuadrados quedando
+
+$$
 
 
 
