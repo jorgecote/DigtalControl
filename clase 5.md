@@ -72,7 +72,7 @@ $x=\frac{-b\frac{+}{}\sqrt{b^{2}-4ac}}{2a}$
 
 Y tenemos dos factores
 
-### 1. $(s^{2}+2s+2)$
+### 1.1 $(s^{2}+2s+2)$
 a=1 , b= 2, c=2
 
 $x=\frac{-2 \frac{+}{}\sqrt{2^{2}-4(1)(2)}}{2(1)}$
@@ -87,6 +87,22 @@ $$x=\frac{-2\frac{+}{}\sqrt{4}i}{2}$$
 
 $$x=-1\frac{+}{}i$$
 
+ ### 1.2 $(s^{2}+2s+5)$
+
+a=1, b=2 , c=5
+$x=\frac{-2 \frac{+}{}\sqrt{2^{2}-4(1)(5)}}{2(1)}$
+
+$x=\frac{-2 \frac{+}{}\sqrt{4-20}}{2}$
+
+$x=\frac{-2 \frac{+}{}\sqrt{-16}}{2}$
+
+Volvemos a usar el termino de i
+
+$$x=\frac{-2\frac{+}{}\sqrt{16}i}{2}$$
+
+$$x=-1\frac{+}{}2i$$
+
+ 
 
 
 
