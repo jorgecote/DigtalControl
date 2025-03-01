@@ -3,7 +3,8 @@ De acuerdo a nuestra clase #4 vimos el tema de Raices Reales Diferentes y Raices
 ## 1. Ejercicio Raices Reales Iguales y Raices Reales Diferentes
 Se inicia la clase con el siguiente ejercicio: 
 
-$$G(s)=$G(s)=\frac{2s-3}{(s+2)(s+10)^{3}}$$
+$$G(s)=\frac{2s-3}{(s+2)(s+10)^{3}}$$
+ARREGLAR
 
 Al analizar el ejercicio nos damos cuenta que es un problema que contiene raices reales diferentes e iguales a al vez, por lo cual comenzamos planteando las fracciones parciales para luego poder aplicar los dos metodos mencionados anteriormente.
 
@@ -65,6 +66,30 @@ Se usa este caso cuando encontramos polinomios de segundo grado en los factores 
 
 $$G(s)=\frac{s^{2}+2s+3}{(s^{2}+2s+2)(s^{2}+2s+5)}$$
 
+Primero tenemos que resolver los factores de segundo grado ya sea si es posible por metodos de factorizacion, si no por medio de la ecuacion cuadratica:
+
+$x=\frac{-b\frac{+}{}\sqrt{b^{2}-4ac}}{2a}$
+
+Y tenemos dos factores
+
+### 1. $(s^{2}+2s+2)$
+a=1 , b= 2, c=2
+
+$x=\frac{-2 \frac{+}{}\sqrt{2^{2}-4(1)(2)}}{2(1)}$
+
+$x=\frac{-2 \frac{+}{}\sqrt{4-8}}{2}$
+
+$x=\frac{-2 \frac{+}{}\sqrt{-4}}{2}$
+
+Como la raiz de -4 no existe en los numeros reales pasamos a resolver mediante numeros complejos, usando el valor de $i=\sqrt{-1}$ , quedando de tal forma:
+
+$$x=\frac{-2\frac{+}{}\sqrt{4}i}{2}$$
+
+$$x=-1frac{+}{}i$$
+
+
+
+
 Separamos en fracciones parciales de la siguiente forma: 
 
 $$G(s)=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
@@ -73,7 +98,12 @@ Y escribimos igualando las dos ecuaciones:
 
 $$G(s)=\frac{s^{2}+2s+3}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{As+B}{(s^{2}+2s+2)}+\frac{Cs+D}{s^{2}+2s+5}$$
 
-Multiplicamos uno de los factores de segundo orden 
+Multiplicamos uno de los factores de segundo orden, elegimos el factor de $(s^{2}+2s+2)$ quedando de tal manera:
+
+$G(s)=\frac{(s^{2}+2s+2)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(s^{2}+2s+2)As+B}{(s^{2}+2s+2)}+\frac{(s^{2}+2s+2)Cs+D}{s^{2}+2s+5}$
+
+
+
 
 
 ## 2. Definiciones
