@@ -37,28 +37,17 @@ Utilizando
 ![Derivada de un cociente](images/plantilla/derivada.png)
 
 Tenemos que: 
+ $C=\left [ \frac{2(s+2)-(2s-3)(1)}{(s+2)^{2}} \right ],s=-10$
 
-$C=\frac{d}{ds}\left [ \frac{3}{(s+5)} \right ],s=-8$
+ $C=\left [ \frac{2((-10)+2)-(2(-10)-3)(1)}{((-10)+2)^{2}} \right ]$
 
-$\frac{d}{ds}(3)=0$
-
-$\frac{d}{ds}(s+5)=1$
-
-$C=\frac{0(s+5)-3(1)}{(s+5)^{2}},s=-8$
-
-$C=\frac{-3}{(-8+5)^{2}}$
-
-$C=\frac{-3}{9}=\frac{-1}{3}$
+ $C=\left [ \frac{-16+23}{64} \right ]=\frac{7}{64}$
 
 Y por ultimo paar la variable D, hacemos lo mismo, la derivada de la ecuacion anterior o la  doble derivada de la primera ecuacion:
 
-$D=\frac{d^{2}}{ds^{2}}\left[ \frac{(s+8)^{3}3}{(s+5)(s+8)^{3}}\right],s=-8$$
+$D=\frac{d^{2}}{ds^{2}}\left [ \frac{2(s+2)-(2s-3)(1)}{(s+2)^{2}} \right ],s=-10$$
 
-$D=\left [ \frac{0(s+5)^{2}+3(2(s+5))}{(s+5)^{4}} \right ],s=-8$
 
-$D=\left [ \frac{3(2(-8+5))}{(-8+5)^{4}} \right ]$
-
-$D=\left [ \frac{18}{81} \right ]=\frac{-2}{9}$
 
 Al final tendriamos que:
 ## 2. Solucion Resumida 
