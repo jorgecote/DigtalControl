@@ -8,19 +8,19 @@ ARREGLAR
 
 Al analizar el ejercicio nos damos cuenta que es un problema que contiene raices reales diferentes e iguales a al vez, por lo cual comenzamos planteando las fracciones parciales para luego poder aplicar los dos metodos mencionados anteriormente.
 
-Ya que el termino $(s+8)^{3}$ hace parte de raices reales iguales debemos tener en cuenta su formulacion en las fracciones parciales siendo que:  
+Ya que el termino $(s+10)^{3}$ hace parte de raices reales iguales debemos tener en cuenta su formulacion en las fracciones parciales siendo que:  
 
-$$ G(s)=\frac{A}{(s+5)}+\frac{B}{(s+8)^{3}}+\frac{C}{(s+8)^{2}}+\frac{D}{(s+8)}$$
+$$ G(s)=\frac{A}{(s+2)}+\frac{B}{(s+10)^{3}}+\frac{C}{(s+10)^{2}}+\frac{D}{(s+10)}$$
 
 Utilizamos el metodo de Raices Reales Diferentes para encontrar el valor de la variable A:
 
-$A=\left [ \frac{(s+5)3}{(s+5)(s+8)^{3}} \right ]\,s=-5$
+$A=\left [ \frac{(s+2)(2s-3)}{(s+2)(s+10)^{3}} \right ]\,s=-2$
 
-$A=\left [ \frac{(-5+5)3}{(-5+5)(-5+8)^{3}} \right ]\$
+$A=\left [ \frac{(-2+2)(2(-2)-3}{(-2+2)(-2+10)^{3}} \right ]\$
 
-$A=\left [ \frac{3}{(-5+8)^{3}} \right ]\$
+$A=\left [ \frac{-7}{(8)^{3}} \right ]\$
 
-$A= \frac{3}{27}=\frac{1}{9}$
+$A= \frac{-7}{512}$
 
 Ahora para la variable B usamos el metodo de Raices Reales Iguales
 
