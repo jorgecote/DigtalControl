@@ -122,8 +122,11 @@ Y resolvemos multiplicaciones
 
 $G(s)=\frac{1+j-j^{2}+2+2j+3}{1+j-j^{2}+2+2j+5}={A+Aj+B}$
 
-$G(s)=\frac{1+j-1+2+2j+3}{1+j-j+2+2j+5}={A+Aj+B}$
 Teniendo en cuenta que $j^{2}=-1$ tendriamos que: 
+
+$G(s)=\frac{1+j-1+2+2j+3}{1+j-j+2+2j+5}={A+Aj+B}$
+
+
 
 
 
