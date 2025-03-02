@@ -141,12 +141,27 @@ $G(s)=\frac{(s^{2}+2s+5)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(Cs+D)s^{2
 
 Simplificamos
 
-$G(s)=\frac{(s^{2}+2s+3)}{(s^{2}+2s+2)}=(Cs+D), s=-1+2j$
+$\frac{(s^{2}+2s+3)}{(s^{2}+2s+2)}=(Cs+D), s=-1+2j$
 
+Resolvemos
 
+$\frac{((-1+2j)^{2}+2(-1+2j)+3)}{((-1+2j)^{2}+2(-1+2j)+2)}=(C(-1+2j)+D)$
 
+$\frac{-1-4j+4j^{2}-2+4j+3}{-1-4j+4j^{2}-2+4j+2}=-C+2Cj+D$
 
-(-1+2j)
+Simplificamos y teniendo en cuenta que $j^{2}=-1$ tendriamos que: 
+
+$\frac{2}{3}=-C+2Cj+D$
+
+Separamos los sistemas de ecuaciones para asi resolver el sistema, teniendo en cuenta la parte real y la parte imaginaria:
+
+$\frac{2}{3}=-C+2Cj+D$
+
+$ 2Cj=0 , C=0 $
+
+$\frac{2}{3}=-C+D$
+
+$D=\frac{2}{3}$
 
 
 
