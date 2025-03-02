@@ -108,7 +108,7 @@ $$G(s)=\frac{s^{2}+2s+3}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{As+B}{(s^{2}+2s+2)}+\fr
 
 Multiplicamos uno de los factores de segundo orden, elegimos el factor de $(s^{2}+2s+2)$ y evaluando s en los resultados de la solucion de la cuadratica quedando de tal manera:
 
-$\left [ G(s)=\frac{(s^{2}+2s+2)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(s^{2}+2s+2)As+B}{(s^{2}+2s+2)}+\frac{(s^{2}+2s+2)Cs+D}{s^{2}+2s+5} \right ] s=1+j$
+$\left [ G(s)=\frac{(s^{2}+2s+2)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(s^{2}+2s+2)As+B}{(s^{2}+2s+2)}+\frac{(s^{2}+2s+2)Cs+D}{s^{2}+2s+5} \right ] s=-1+j$
 
 Simplificamos terminos reemplazando por el valor de s, quedando de tal manera: 
 
@@ -116,15 +116,23 @@ $G(s)=\frac{(s^{2}+2s+3)}{(s^{2}+2s+5)}={As+B}+(0)$
 
 $G(s)=\frac{((1+j-j^{2})+2(1+j)+3)}{(1+j-j^{2})+2(1+j)+5)}={A(1+j)+B}$
 
-$G(s)=\frac{((1+j)^{2}+2(1+j)+3)}{((1+j)^{2}+2(1+j)+5)}={A(1+j)+B}$
+$G(s)=\frac{((-1+j)^{2}+2(-1+j)+3)}{((-1+j)^{2}+2(-1+j)+5)}={A(-1+j)+B}$
 
 Y resolvemos multiplicaciones
 
-$G(s)=\frac{1+j-j^{2}+2+2j+3}{1+j-j^{2}+2+2j+5}={A+Aj+B}$
+$G(s)=\frac{1-2j+j^{2}-2+2j+3}{1-2j+j^{2}+2j+5}$
 
-Teniendo en cuenta que $j^{2}=-1$ tendriamos que: 
+Simplificamos y teniendo en cuenta que $j^{2}=-1$ tendriamos que: 
 
-$G(s)=\frac{1+j-1+2+2j+3}{1+j-j+2+2j+5}={A+Aj+B}$
+$G(s)=\frac{1-1-2+3}{1-1-2+5}={A+Aj+B}$
+
+$G(s)=\frac{1}{3}$
+
+Separamos los sistemas de ecuaciones para asi resolver el sistema, teniendo en cuenta la parte real y la parte imaginaria:
+
+$\frac{1}{3}=-A+Aj+B$
+
+$Aj=0 , A=0, B=\frac{1}{3}$
 
 
 
