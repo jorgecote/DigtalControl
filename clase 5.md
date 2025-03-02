@@ -45,11 +45,18 @@ Tenemos que:
 
 Y por ultimo paar la variable D, hacemos lo mismo, la derivada de la ecuacion anterior o la  doble derivada de la primera ecuacion:
 
-$D=\frac{d^{2}}{ds^{2}}\left [ \frac{2(s+2)-(2s-3)(1)}{(s+2)^{2}} \right ],s=-10$$
+$$D=\frac{d}{ds}\left [ \frac{2(s+2)-(2s-3)(1)}{(s+2)^{2}} \right ],s=-10$$
 
+$D=\left [ \frac{(2-2)(s+2)^{2}-2(s+2)(2(s+2))-(2s-3)}{(s+2)^{4}} \right ],s=-10$
 
+$D=\left [ \frac{(2-2)((-10)+2)^{2}-2((-10)+2)(2((-10)+2))-(2(-10)-3)}{((-10)+2)^{4}} \right ]$
+
+$D=\frac{-112}{4096}$
 
 Al final tendriamos que:
+
+$$G(s)=\frac{\frac{-7}{512}}{(s+2)}+\frac{\frac{23}{8}}{(s+10)^{3}}+\frac{\frac{7}{64}}{(s+10)^{2}}+\frac{\frac{-112}{4096}}{(s+10)}$$
+
 ## 2. Solucion Resumida 
 Se usa este caso cuando encontramos polinomios de segundo grado en los factores del denominador, coemnzamos con un ejercicio en clase:
 
