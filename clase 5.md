@@ -18,15 +18,15 @@ $A=\left [ \frac{(s+2)(2s-3)}{(s+2)(s+10)^{3}} \right ]\,s=-2$
 
 $A=\left [ \frac{(-2+2)(2(-2)-3}{(-2+2)(-2+10)^{3}} \right ]\$
 
-$A=\left [ \frac{-7}{(8)^{3}} \right ]\$
+$A=\left [ \frac{-7}{(8)^{3}} \right]\$
 
 $A= \frac{-7}{512}$
 
 Ahora para la variable B usamos el metodo de Raices Reales Iguales
 
-$$B=\left [ \frac{(s+8)^{3}3}{(s+5)(s+8)^{3}} \right ], s=-8$$
+$$B=\left [ \frac{(s+10)^{3}(2s-3)}{(s+2)(s+10)^{3}} \right ], s=-10$$
 
-$B=\left [ \frac{(-8+8)^{3}3}{(-8+5)(-8+8)^{3}} \right ]$
+$B=\left [ \frac{(-10+10)^{3}(2(-10)-3)}{(-10+2)(-10+10)^{3}} \right ]$
 
 $B=\frac{3}{(-8+5)}=\frac{3}{-3}=-1$
 
