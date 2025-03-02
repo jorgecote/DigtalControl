@@ -135,12 +135,8 @@ $\frac{1}{3}=-A+Aj+B$
 $Aj=0 , A=0, B=\frac{1}{3}$
 
 
+Para las variables C y D hacemos el mismo procedimiento pero con el otro factor cuadratico:
 
-
-
-
-
-Se resuelven la suma de cuadrados quedando
 
 $$
 
