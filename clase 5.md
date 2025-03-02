@@ -112,7 +112,7 @@ $\left [ G(s)=\frac{(s^{2}+2s+2)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(s
 
 Simplificamos terminos reemplazando por el valor de s, quedando de tal manera: 
 
-$G(s)=\frac{(s^{2}+2s+3)}{(s^{2}+2s+5)}={As+B}+(0)$
+$G(s)=\frac{(s^{2}+2s+3)}{(s^{2}+2s+5)}={As+B}+(0), s=-1+j$
 
 $G(s)=\frac{((1+j-j^{2})+2(1+j)+3)}{(1+j-j^{2})+2(1+j)+5)}={A(1+j)+B}$
 
@@ -137,8 +137,16 @@ $Aj=0 , A=0, B=\frac{1}{3}$
 
 Para las variables C y D hacemos el mismo procedimiento pero con el otro factor cuadratico:
 
+$G(s)=\frac{(s^{2}+2s+5)(s^{2}+2s+3)}{(s^{2}+2s+2)(s^{2}+2s+5)}=\frac{(Cs+D)s^{2}+2s+5}{(s^{2}+2s+5)}, s=-1+2j$
 
-$$
+Simplificamos
+
+$G(s)=\frac{(s^{2}+2s+3)}{(s^{2}+2s+2)}=(Cs+D), s=-1+2j$
+
+
+
+
+(-1+2j)
 
 
 
