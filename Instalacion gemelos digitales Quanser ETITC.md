@@ -6,7 +6,7 @@
 
 ## Introducción
 
-1.  Registrarse en https://portal.quanser.com/Accounts/Login?returnUrl=/ utilizando su correo institucional
+1.  Registrarse en [https://quanser.com/mathworks-qlabs-trial/](https://www.quanser.com/mathworks-qlabs-trial/) utilizando su correo institucional
 2.	Abrir Matlab, descargar e instalar el complemento Quanser interactive Labs for Matlab
    
 ![Complemento QUARC matlab](https://github.com/jorgecote/DigtalControl/blob/main/images/plantilla/Quanser%20interactive%20labs.png)
