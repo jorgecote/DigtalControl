@@ -6,11 +6,12 @@
 
 ## Introducción
 
-> En este laboratorio, crearemos un modelo Simulink utilizando bloques **QUARC** para manejar el motor de corriente continua (thruster 0) del Aero 2 y medir su velocidad angular correspondiente a través del tacómetro.
-
-El modelo final que construiremos será similar al que se muestra en la siguiente figura.
-
+1.  Registrarse en https://portal.quanser.com/Accounts/Login?returnUrl=/ utilizando su correo institucional
+2.	Abrir Matlab, descargar e instalar el complemento Quanser interactive Labs for Matlab
+   
 ![Complemento QUARC matlab](https://github.com/jorgecote/DigtalControl/blob/main/images/plantilla/Quanser%20interactive%20labs.png)
+
+*Figura 1: Complemento Quanser interactive labs para gemelos digitales*
 
 ---
 ## Lanzar la aplicación en MATLAB
