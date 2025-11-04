@@ -1,6 +1,6 @@
-# 🧪 Guía para uso del gemelo digital Quanser Aero 2
+# 🧪 Guía para uso del gemelo digital Quanser Aero 
 
-**Uso de Aero 2 y Simulink con QUARC**
+**Uso de Aero  y Simulink con QUARC**
 
 ---
 
@@ -48,9 +48,9 @@
    - Asegúrate de que la opción **Active during normal simulation** esté marcada.
    - Haz clic en **OK** para cerrar la ventana.
 
-![Figura 5: Configuración del bloque HIL para el Aero 2 virtual](images/plantilla/Quanser_aero2_conf.PNG)
+![Figura 5: Configuración del bloque HIL para el Aero virtual](images/plantilla/quanser_aero_conf.PNG)
  
-7. En la interfaz de **Quanser Interactive Labs**, asegúrate de que el Aero 2 esté configurado en modo 1-DOF (pitch-only):
+7. En la interfaz de **Quanser Interactive Labs**, asegúrate de que el Aero  esté configurado en modo 1-DOF (pitch-only):
     a. Desbloquea el eje de pitch (inclinación).
     b. Bloquea el eje de yaw (giro).
     c. Asegúrate de que ambos rotores estén en posición horizontal.
@@ -63,7 +63,7 @@
 
 ![Figura 6: Botón "Run" en la pestaña Simulation](https://github.com/jorgecote/DigtalControl/blob/main/images/plantilla/boton%20run.png)
 
-9. Si la conexión y la configuración son correctas y no hay errores, la tira de LED en la base del Aero 2 virtual se pondrá de color **verde**.
+9. Si la conexión y la configuración son correctas y no hay errores, la tira de LED en la base del Aero  virtual se pondrá de color **verde**.
 
 ![Figura 7: Tira LED del Aero 2 en verde indicando conexión exitosa](images/plantilla/Aero_green_led.PNG)
 
