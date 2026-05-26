@@ -74,7 +74,7 @@
 12. Configúralo haciendo doble clic y marcando la opción **Active during normal simulation**. Este bloque enviará un voltaje al servo que controla el ángulo de la viga.
 13. Añade un bloque `Constant` de la librería de Simulink (`Simulink → Sources`) y conéctalo a la entrada del bloque `HIL Write Analog`.
 14. Ejecuta el controlador QUARC de nuevo con el botón **Run**.
-15. Haz doble clic en el bloque `Constant` y establece su valor en, por ejemplo, `1.0`. Esto aplicará un voltaje que comandará un ángulo específico a la viga. Observa cómo la viga se inclina en el gemelo digital.
+15. Haz doble clic en el bloque `Constant` y establece su valor en, por ejemplo, `-1.0`. Esto aplicará un voltaje que comandará un ángulo específico a la viga. Observa cómo la viga se inclina en el gemelo digital.
 
 **Lectura de la Posición de la Bola (Medición)**
 
