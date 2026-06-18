@@ -1,0 +1,182 @@
+# USO DE MATLAB PARA EL DESARROLLO DE LA TRANSFORMADA INVERSA
+El objetivo de la clase es solucionar la transformada inversa utilizando los metodos de raices reales diferentes, y raices reales iguales, comprobarlos en MATLAB con el fin de corroborar los resultados realizados de manera manual.  MATLAB es una herramienta muy útil para realizar transformadas de Laplace, tanto simbólicas como numéricas. Para trabajar con la transformada de Laplace en MATLAB, generalmente se utiliza la caja de herramientas Symbolic Math Toolbox.
+# 1. Conceptos
+> 🔑 MATLAB es una herramienta muy útil para realizar transformadas de Laplace, tanto simbólicas como numéricas. Para trabajar con la transformada de Laplace en MATLAB, generalmente se utiliza la caja de herramientas Symbolic Math Toolbox.
+
+> 🔑 Una ecuación diferencial es una ecuación que relaciona una función con sus derivadas, describiendo cómo cambia una cantidad en función de otra.
+
+> 🔑 Las raíces reales diferentes son los valores distintos de s en los que una función de Laplace se anula. Se utilizan para descomponer la transformada de Laplace y hallar su inversa a través de fracciones parciales.
+
+> 🔑 El método de raíces reales iguales es una técnica utilizada para hallar la transformada de Laplace de una función dada, especialmente cuando el denominador de la función está factorizado en términos de raíces repetidas (o iguales) en el dominio del tiempo.
+
+## 2. Transformada de Laplace aplicada en MATLAB
+En MATLAB, la transformada de Laplace se puede calcular utilizando la función laplace(), que forma parte de la Symbolic Math Toolbox. Esta función permite encontrar la transformada de Laplace de una función simbólica con respecto a una variable temporal. 
+## 3. Uso básico de la transformada de Laplace en MATLAB:
+El procedimiento más sencillo se trata de utilizar la función ilaplace para calcular la transformada inversa de una función en el dominio de s.
+## 3.1. Definir variables simbólicas
+Definir las variables simbólicas para s (dominio de Laplace) y t (dominio del tiempo).
+syms t s
+## 3.2. Definir la función: 
+Definir la función en el dominio de Laplace (en términos de s).
+https://latex.codecogs.com/svg.image?F\left(s\right)=\frac{1}{\left(s&plus;1\right)}
+## 3.3. Aplicar la transformada de Laplace: 
+## 4. Repaso
+Se recuerda lo fundamental  de reconocer una ecuación diferencial, ya que permite modelar dinámicamente distintos sistemas. Además, algunos conceptos de cálculo vectorial son clave para comprender ciertos procesos relacionados.
+### 4.1 Ecuaciones diferenciales
+Las ecuaciones diferenciales son expresiones matemáticas que relacionan una función con sus derivadas. Se utilizan para relacionar la evolución de sistemas  en el tiempo, describiendo cómo una variable cambia en función de otra(tiempo). 
+
+### 4.2 Transformada de LaPlace
+La transformada de Laplace es una técnica matemática que permite cambiar una ecuación del tiempo al dominio de la frecuencia, haciendo más fácil su análisis. Convierte ecuaciones con derivadas en ecuaciones más simples de resolver.
+## 5. Transformada Inversa de LaPlace 
+La transformada inversa de Laplace permite regresar una ecuación del dominio de la frecuencia al dominio del tiempo. Su objetivo es recuperar la función original después de haber sido transformada, facilitando la interpretación del comportamiento del sistema en el tiempo.
+## 💡6. Ejemplo
+Se realiza el siguiente ejemplo en clase:
+
+$$G(s)=\frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
+
+Se repasa el tema de fracciones parciales para resover la transformada de LaPlace inversa, siendo en este caso separar el denominador y asignar variables para resolver el sistema, tal que: 
+
+$$G(s)=\frac{A}{(s+1)}+\frac{B}{(s-2)}+\frac{C}{(s-3)}=\frac{2s^{2}-4}{(s+1)(s+2)(s-3)}$$
+
+Se resuelven las fracciones del lado izquierdo quedando de tal manera y luego igualando numerador con numerador: 
+
+$$A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)=2s^{2}-4$$
+
+Se resuleven parentesis: 
+
+$$A(s^{2}-5s+6)+B(s^{2}-2s-3)+C(s^{2}-s-2)=2s^{2}-4$$
+
+Se plantea el sistema de ecuaciones 3x3 igualando terminos similares en las dos partes de la igualadad, es decir:
+
+ 1. $$A+B+C=2$$
+ 
+ 2. $$-5A-2B-C=0$$
+ 
+ 3. $$6A-3B-2C=-4$$
+ 
+Despejando el sistema 3x3 por metodo de sustitucion queda que: 
+
+1. $$A=2-C-B$$
+    
+2.Reemplazamos 1 en 2
+   
+$-5(2-C-B)-2B-C=0$
+
+$-10+5C+5B-2B-C=0$
+
+$-10+4C+3B=0$
+
+$4C+3B=10$
+
+$C=\frac{10-3B}{4}$
+
+3. Remplazmos 1 y 2 en 3
+
+$6(2-C-B)-3B-2(\frac{10-3B}{4})=-4$
+
+$12-6C-6B-3B-2(\frac{10-3B}{4})=-4$
+
+$12-6(\frac{10-3B}{4})-6B-3B-2(\frac{10-3B}{4})=-4$
+
+$12-(\frac{60-18B}{4})-9B-(\frac{20-6B}{4})=-4$
+
+$12-15+(\frac{18B}{4})-9B-5+(\frac{6B}{4})=-4$
+ 
+$-8-9B+(\frac{18}{4}+\frac{6}{4})B=-4$
+
+$-8-9B+6B=-4$
+
+$-9B+6B=4$
+
+$-3B=4$
+
+$B=\frac{-4}{3}$
+
+4.Remplazamos valor de B y C en 1
+
+$A=2-C-B$
+
+$A=2-(\frac{10-3(\frac{-4}{3})}{4})-(\frac{-4}{3})$
+
+$A=\frac{-1}{6}$
+
+5.Remplazmos valor de B en 2
+
+$C=\frac{10-3B}{4}$
+
+$C=(\frac{10-3(\frac{-4}{3})}{4})$
+
+$C=\frac{7}{2}$
+
+Por ultimo: 
+
+$$G(s)=\frac{\frac{-1}{6}}{s+1}+ \frac{\frac{-4}{3}}{s-2}+ \frac{\frac{7}{2}}{s-3}$$
+
+
+#  7.Ejercicios
+📚 1. 
+$$W(s)=\frac{3s+2}{(s-5)(s+2)}$$
+
+$W(s)=\frac{A}{(s-5)}+\frac{B}{(s+2)}=\frac{3s+2}{(s-5)(s+2)}$
+
+$A(s+2)+B(s-5)=3s+2$
+
+$As+2A+Bs-5B=3s+2$
+
+$A+B=3$
+
+$2A-5B=2$
+
+1. $A=3-B$
+2.
+$2(3-B)-5B=2$
+
+$6-2B-5B=2$
+
+$6-7B=2$
+
+$-7B=-4$
+
+$B=\frac{4}{(7)}$
+
+
+3.
+$A=3-(\frac{4}{7)}$
+   
+$A=\frac{17}{(7)}$
+
+$$W(s)=\frac{\frac{17}{7}}{(s-5)}+\frac{\frac{4}{7}}{(s+2)}$$
+
+📚 2. 
+$$F(s)=\frac{(s-5)}{(s+3)(s-2)}$$ 
+
+$F(s)=\frac{(s-5)}{(s+3)(s-2)}=\frac{A}{(S-5)}+\frac{B}{(S-2)}$
+
+$A(s-2)+B(s+3)=s-5$
+
+$As-2A+Bs+3B=s-5$
+
+$A+B=1$
+
+$-2A+3B=-5$
+
+$A=1-B$
+
+$-2(1-B)+3B=-5$
+
+$-2+2B+3B=-5$
+
+$B=\frac{-3}{(5)}$
+
+$A=1-(\frac{-3}{(5)})$
+
+$A=\frac{8}{(5)}$
+
+$$F(s)=\frac{\frac{8}{(5)}}{(S-5)}+\frac{\frac{-3}{(5)}}{(S-2)}$$
+
+## 8. Conclusiones
+En conclusión, la clase explicó qué son los sistemas dinámicos y cómo se pueden estudiar usando modelos matemáticos y ecuaciones diferenciales. Se diferenciaron los sistemas lineales y no lineales, resaltando la importancia de validar los modelos para que sean precisos. También se repasó la transformada de Laplace y su inversa, herramientas útiles para resolver ecuaciones de manera más sencilla.
+
+## 9. Referencias
+Ejercicio 1: Ejemplo formulado por el estudiante.
+Ejercicio 2: Platzi. (s.f.). Transformada de Laplace de la derivada de una función - PVI - Repaso. Recuperado el [fecha de consulta], de https://platzi.com/tutoriales/1320-ecuaciones/8937-transformada-de-laplace-de-la-derivada-de-una-funcion-pvi-repaso/
